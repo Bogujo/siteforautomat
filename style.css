@@ -4,7 +4,6 @@ body{
 
 .banner {
     background-image: url(mainbanner.jpg);
-    box-shadow: 0px 0px 50px black;
     height: 800px;
     width: 1910px;
     margin: auto;
@@ -46,6 +45,7 @@ body{
     font-size: 20px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .menu {
@@ -74,4 +74,89 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 160px;
+}
+
+.selection{
+    height: 1600    px;
+    width: 1910px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: rgba(245, 245, 220, 0.377);
+}
+
+.selection h1{
+    text-align: center;
+    line-height: 100px;
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+.menutour{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.menutour a{
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 10px;
+}
+
+.card {
+    text-align: center;
+}
+
+.cardtext {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.cardtext img {
+    width: 370px;
+    height: 531px;
+    border-radius: 80px;
+}
+
+.textmountains {
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+.textmountains2 {
+  position: absolute;
+  top: 22%;
+  right: 56%;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+
+.textprice {
+  position: absolute;
+  top: 33%;
+  right: 60%;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+}
+
+.moredetails {
+  position: absolute;
+  top: 85%;
+  right: 45%;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  font-size: 23px;
 }
