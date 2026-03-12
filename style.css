@@ -17,7 +17,7 @@
     text-align: center;
     text-shadow: black 1px 1px 5px;
     line-height: 10px;
-    font-family: "Caveat", cursive;
+    font-family: "Roboto", cursive;
     font-weight: 400;
     font-size: 80px;
     color : rgb(241, 241, 241);
@@ -28,7 +28,7 @@
     text-align: center;
     text-shadow: black 1px 1px 5px;
     line-height: 150px;
-    font-family: "Caveat", cursive;
+    font-family: "Roboto", cursive;
     font-weight: 400;
     font-size: 40px;
     color : rgb(241, 241, 241);
@@ -41,7 +41,7 @@
 }
 
 .buttontour button{
-    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto", cursive;
     font-size: 20px;
     border-radius: 10px;
     border: none;
@@ -53,7 +53,7 @@
 }
 
 .menu a{
-    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto", cursive;
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -61,7 +61,7 @@
 }
 
 .menu name{
-    font-family: "Caveat", cursive;
+    font-family: "Roboto", cursive;
     font-size: 50px;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -69,7 +69,7 @@
 }
 
 .menu num{
-    font-family: "Caveat", cursive;
+    font-family: "Roboto", cursive;
     font-size: 40px;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -86,6 +86,7 @@
     height: 1600px;
     width: 1910px;
     margin: auto;
+    margin-top: 135px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +97,7 @@
 .selection h1{
     text-align: center;
     line-height: 100px;
-    font-family: "Caveat", cursive;
+    font-family: "Roboto", cursive;
     font-weight: 400;
     font-size: 80px;
     color: rgb(0, 0, 0);
@@ -110,7 +111,7 @@
 }
 
 .menutour a{
-    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto", cursive;
     font-size: 30px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -142,24 +143,24 @@
   top: 15%;
   right: 20%;
   color: rgb(255, 255, 255);
-  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", cursive;
   font-size: 40px;
 }
 .textmountains2 {
   position: absolute;
   top: 22%;
-  right: 56%;
+  right: 54%;
   color: rgb(255, 255, 255);
-  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", cursive;
   font-size: 40px;
 }
 
 .textprice {
   position: absolute;
   top: 33%;
-  right: 60%;
+  right: 53%;
   color: rgb(255, 255, 255);
-  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", cursive;
   font-size: 20px;
 }
 
@@ -168,7 +169,7 @@
   top: 85%;
   right: 45%;
   color: rgb(255, 255, 255);
-  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", cursive;
   font-size: 23px;
 }
 
@@ -188,14 +189,16 @@
 }
 
 .tourform h1{
-    font-family: "Caveat", cursive;
+    font-family: "Roboto", cursive;
     font-size: 60px;
     margin-bottom: 40px;
 }
 
 .tourform p{
     margin-bottom: 150px;
-    margin-top: 50px;   
+    margin-top: 50px;
+    color: gray;
+    font-family: "Roboto", cursive;   
 }
 
 .formrow{
@@ -211,10 +214,12 @@
 .input label{
     display: block;
     margin-bottom: 10px;
+    font-family: "Roboto", cursive;
 }
 
 .inputcommentary{
     text-align: left;
+    
 
 }
 
@@ -222,7 +227,8 @@
     text-align: left;
     display: block;
     margin-left: 50px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
+    font-family: "Roboto", cursive;    
 }
 
 .inputcommentary textarea{
@@ -242,6 +248,7 @@
     border: none;
     background-color: rgba(128, 128, 128, 0.11);
     padding-left: 20px;
+    font-family: "Roboto", cursive;
 }
 
 .age{
@@ -255,16 +262,19 @@
     display: block;
     text-align: left;
     margin-left: 50px;
+    font-family: "Roboto", cursive;
 }
 
 .radio label{
     margin-right: 20px;
+    
 }
 
 .agree{
     text-align: left;
     margin-left: 45px;
     margin-top: 20px;
+    font-family: "Roboto", cursive;
 }
 
 .formbuttons{
@@ -282,6 +292,7 @@
     font-size: 16px;
     cursor: pointer;
     margin-right: 10px;
+    font-family: "Roboto", cursive;
 }
 
 .reset{
@@ -293,4 +304,70 @@
     font-size: 16px;
     cursor: pointer;
     margin-left: 10px;
+    font-family: "Roboto", cursive;
+}
+
+.reviews {
+    text-align: center;
+    margin: 135px;
+}
+
+.reviews h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: "Roboto", cursive;
+}
+
+.text{
+    text-align: center;
+    color:gray;
+    font-family: "Roboto", cursive;
+    margin-bottom: 40px;
+}
+
+.reviewcard{
+    display: inline-block;
+    width: 570px;
+    height: 673px;
+    background-color: #d4d3cf77;
+    padding: 40px;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+}
+
+.reviewmessage{
+    font-family: "Roboto", cursive;
+    font-size: 20px;
+    
+}
+
+
+.reviewperson{
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 440px;
+}
+
+.reviewperson div{
+    display: inline-block;
+}
+
+.reviewperson img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30px;
+    left: 500px; 
+}
+
+.reviewperson span{
+    color: gray;
+    font-family: "Roboto", cursive;
+    font-size: 17px;
 }
