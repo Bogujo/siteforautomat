@@ -1,6 +1,6 @@
-body{
-    background-color:rgba(203, 196, 209, 0.61)
-}
+    body{
+        background-color: rgba(218, 218, 196, 0.527);
+    }
 
 .banner {
     background-image: url(mainbanner.jpg);
@@ -83,14 +83,14 @@ body{
 
 
 .selection{
-    height: 1600    px;
+    height: 1600px;
     width: 1910px;
     margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-color: rgba(245, 245, 220, 0.377);
+    
 }
 
 .selection h1{
@@ -172,3 +172,125 @@ body{
   font-size: 23px;
 }
 
+
+.formtour{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.tourform{
+    width: 1170px;
+    height: 986px;
+    margin: auto;
+    text-align: center;
+}
+
+.tourform h1{
+    font-family: "Caveat", cursive;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.tourform p{
+    margin-bottom: 150px;
+    margin-top: 50px;   
+}
+
+.formrow{
+    margin-bottom: 25px;
+}
+
+.input{
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+}
+
+.input label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputcommentary{
+    text-align: left;
+
+}
+
+.COMMENTARY{
+    text-align: left;
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 10px;    
+}
+
+.inputcommentary textarea{
+    width: 84%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.11);
+    margin-left: 50px;
+}
+
+
+.input input{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.11);
+    padding-left: 20px;
+}
+
+.age{
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 20px;
+
+}
+
+.agelabel{
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.radio label{
+    margin-right: 20px;
+}
+
+.agree{
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.formbuttons{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.findtour{
+    background-color: rgb(0, 128, 75);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.reset{
+    background-color: rgb(170, 236, 209);
+    color: rgb(15, 75, 57);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
