@@ -37,7 +37,7 @@ body{
 
 .buttontour{
     text-align: center;
-    
+    cursor: pointer;  
 }
 
 .buttontour button{
@@ -75,6 +75,12 @@ body{
     text-decoration: none;
     margin: 160px;
 }
+.menu a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
 
 .selection{
     height: 1600    px;
@@ -97,6 +103,7 @@ body{
     margin-top: 0px;
 }
 
+
 .menutour{
     text-align: center;
     margin-bottom: 80px;
@@ -108,6 +115,10 @@ body{
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 10px;
+}
+.menutour a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 .card {
@@ -160,3 +171,4 @@ body{
   font-family: "Bebas Neue", cursive;
   font-size: 23px;
 }
+
