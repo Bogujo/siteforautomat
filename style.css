@@ -1,5 +1,5 @@
     body{
-        background-color: rgba(218, 218, 196, 0.527);
+        background-color: #F5F5F5;
     }
 
 .banner {
@@ -371,3 +371,25 @@
     font-family: "Roboto", cursive;
     font-size: 17px;
 }
+
+.gallery{
+    text-align: center;
+    margin: 135px;
+    
+}
+
+.gallery h1{
+    font-family: "Roboto", cursive;
+    font-size: 50px;
+}
+
+.gallerytext{
+    color: gray;
+    font-family: "Roboto", cursive;
+    margin-bottom: 80px;
+}
+
+.galleryphotos img{
+    margin: 7px;
+}
+
